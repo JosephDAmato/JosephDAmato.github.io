@@ -1,7 +1,7 @@
 body{
     height: 1000px;
     background-color: lightslategrey;
-    background-image: linear-gradient(lightblue, seagreen, rgb(20, 16, 16)) ;
+    background-image: linear-gradient(lightblue, rgb(105, 236, 215), rgb(20, 16, 16)) ;
     background-size: cover;
 }
 
