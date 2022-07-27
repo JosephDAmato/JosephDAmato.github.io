@@ -1,0 +1,14 @@
+body{
+    height: 1000px;
+    background-color: lightslategrey;
+    background-image: linear-gradient(lightblue, seagreen, rgb(20, 16, 16)) ;
+    background-size: cover;
+}
+
+#Top{
+    font-family:cursive;
+    font-weight:bold;
+    color:lightcyan;
+    text-shadow:2px 2px darkslategrey;
+    text-align: center;
+} 
