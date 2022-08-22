@@ -1,14 +1,34 @@
-body{
-    height: 1000px;
-    background-color: lightslategrey;
-    background-image: linear-gradient(lightblue, rgb(105, 236, 215), rgb(20, 16, 16)) ;
-    background-size: cover;
+.grid{
+    display: grid;
+    grid-template-columns: 200px 1fr 200px;
+    grid-template-rows: auto 1fr auto;
+    gap: 5px;
+    height: 90vh;
+}
+header, footer{
+    grid-column: 1/4;
+    text-align: center;
+   
+}
+header, aside, article, footer{
+    border: 3px dashed black; 
 }
 
-#Top{
-    font-family:cursive;
-    font-weight:bold;
-    color:lightcyan;
-    text-shadow:2px 2px darkslategrey;
+aside{
+    padding-left: 10px;
+}
+
+footer{
+    padding-top: 12px;
+}
+
+.Featured_Projects{
     text-align: center;
-} 
+    padding-top: 5px;
+}
+
+
+#Eyes:hover{
+    border-radius: 12%;
+    border:1px solid whitesmoke ;
+}

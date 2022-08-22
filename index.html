@@ -3,31 +3,107 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="description" conten="A Portfolio Page for Joseph DAmato">
+    <meta name="description" content="A Portfolio Page for Joseph DAmato">
     <meat name="author" content="Joseph DAmato">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Joseph DAmato || Developer Portfolio</title>
+   
+    <!---Link to CSS-->
     <link rel="stylesheet" href="style.css">
+
+    <!--Link to bootstrap style sheet-->
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous"/>
 </head>
+
 <script>
     console.log('Hi! Welcome to my page! Watch for updates here and let me know if you find any easter eggs!')
 </script>
-<body id="Top">
-    <br></br>
-    <br></br>
-    <br></br>
-    <h1>Joseph D'Amato</h1>
-    <img id="logo" src="images/faceLogo.png" border: "solid 1px #ccc" height="300px" width="auto" alt="Joseph Damato Web Dev Logo"/>
-    <br>
-    <h3>Aspiring Web Dev</h3>
-    <section>
-        <button id="about" onclick="about.html">About</button>
-        <button id="portfolio" onlick="portfolio.html">Portfolio</button>
-        <button id="blog" onlick="blog.html">Blog</button>
-        <button id="contact" onlick="contact.html">Contact</button>
-    </section>
+
+<body>
+    <div class="grid">
+        <header><!-- Image and text -->
+            <nav class="navbar navbar-expand-lg navbar-dark bg-info">
+                <a class="navbar-brand" href="#">
+                    <img src="images/faceLogo.png" width="35" height="auto" class="d-inline-block align-center" alt="">
+                    Joseph D'Amato || Web Developer
+                  </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                  <div class="navbar-nav">
+                    <a class="nav-item nav-link active" href="https://josephdamato.github.io/">Main</a>
+                    <a class="nav-item nav-link" href="#">Projects</a>
+                  </div>
+                </div>
+              </nav>
+        </header>
+            
+            <!--Repo Projects-->
+            <!--Eyes-->
+        <aside>
+            <h6 class="Featured_Projects">Featured Projects</h6>
+
+            <div class="card text-bg-info mb-3" style="max-width: 18rem;">
+                <a href="https://josephdamato.github.io/EyeMovement/" target="_blank" rel="noreferrer noopener">
+                    <div class="card-header"><img id="Eyes" src="images/EyeMovementPreview.png" height="50px" width="auto" margin="auto" alt="Eye Movement Preview"/>
+                </a>
+                    </div>
+                <div class="card-body">
+                  <h5 class="card-title">Eye Movement</h5>
+                  <p class="card-text">A fun web page where a set of eyes follow your cursor.</p>
+
+                  <!--Repo Button-->
+                <a href="https://github.com/JosephDAmato/EyeMovement" target="_blank" rel="noreferrer noopener">
+                        <button type="button" class="btn btn-secondary btn-sm">Go To Repo</button>
+                </a>
+                <!--End of Button-->
+                </div>
+              </div>
+        
+        <!--Pacman-->
+        <div class="card text-bg-info mb-3" style="max-width: 18rem;">
+            <a href="https://josephdamato.github.io/PacManFactory/" target="_blank" rel="noreferrer noopener">
+                <div class="card-header"><img id="Eyes" src="images/PacmanPagePic.png" height="50px" width="auto" margin="auto" alt="Eye Movement Preview"/>
+            </a>
+                </div>
+            <div class="card-body">
+              <h5 class="card-title">PacMan Factory</h5>
+              <p class="card-text">Create and bounce Pacman around the webpage.</p>
+
+               <!--Repo Button-->
+            <a href="https://github.com/JosephDAmato/PacManFactory" target="_blank" rel="noreferrer noopener">
+                <button type="button" class="btn btn-secondary btn-sm">Go To Repo</button>
+            </a>
+            <!--End of Button-->
+
+            </div>
+          </div>
+          
+        <!--Bus Animation-->
+        <div class="card text-bg-info mb-3" style="max-width: 18rem;">
+            <a href="https://josephdamato.github.io/BusAnimation/" target="_blank" rel="noreferrer noopener">
+                <div class="card-header"><img id="Eyes" src="images/MapAnimationPreview.png" height="50px" width="auto" margin="auto" alt="Eye Movement Preview"/>
+            </a>
+                </div>
+            <div class="card-body">
+              <h5 class="card-title">Bus Animation</h5>
+              <p class="card-text">An interactive map that will display bus stops from MIT to Harvard.</p>
+
+         <!--Repo Button-->
+             <a href="https://github.com/JosephDAmato/BusAnimation" target="_blank" rel="noreferrer noopener">
+                 <button type="button" class="btn btn-secondary btn-sm">Go To Repo</button>
+             </a>
+            <!--End of Button-->
+
+            </div>
+          </div>
+          <!--end of featured projects-->
+        </aside>
+        <article>About Section here</article>
+        <aside class="ContactsLinks">right</aside>
+        <footer>    <p>Joseph DAmato || Web Developer © 2022</p>  </footer>
+    </div>
 </body>
-    <footer id="footer">
-        <p>Joseph DAmato || Aspiring Web Dev © 2022</p>    
-        </footer>
 </html>
