@@ -1,122 +1,323 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="description" content="A Portfolio Page for Joseph DAmato">
-    <meat name="author" content="Joseph DAmato">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Joseph DAmato || Developer Portfolio</title>
-   
-    <!---Link to CSS-->
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.101.0">
+    <title>Joseph D'Amato · Portfolio Page</title>
 
-    <!--Link to bootstrap style sheet-->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous"/>
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.2/examples/album/">
 
-    <!--Icon Library-->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-</head>
+    
 
-<script>
-    console.log('Hi! Welcome to my page! Watch for updates here and let me know if you find any easter eggs!')
-</script>
+    
 
-<body>
-    <div class="grid">
-        <header><!-- Image and text -->
-            <nav class="navbar navbar-expand-lg navbar-dark bg-info sticky-top">
-                <a class="navbar-brand" href="#">
-                    <img src="images/faceLogo.png" width="35" height="auto" class="d-inline-block align-center" alt="">
-                    Joseph D'Amato || Web Developer
+<link href="./bootstrap.min.css" rel="stylesheet">
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+
+      .b-example-divider {
+        height: 3rem;
+        background-color: rgba(0, 0, 0, .1);
+        border: solid rgba(0, 0, 0, .15);
+        border-width: 1px 0;
+        box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+      }
+
+      .b-example-vr {
+        flex-shrink: 0;
+        width: 1.5rem;
+        height: 100vh;
+      }
+
+      .bi {
+        vertical-align: -.125em;
+        fill: currentColor;
+      }
+
+      .nav-scroller {
+        position: relative;
+        z-index: 2;
+        height: 2.75rem;
+        overflow-y: hidden;
+      }
+
+      .nav-scroller .nav {
+        display: flex;
+        flex-wrap: nowrap;
+        padding-bottom: 1rem;
+        margin-top: -1px;
+        overflow-x: auto;
+        text-align: center;
+        white-space: nowrap;
+        -webkit-overflow-scrolling: touch;
+      }
+    </style>
+
+    
+  </head>
+  <body>
+    
+<header>
+  <div class="collapse bg-dark" id="navbarHeader">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-8 col-md-7 py-4">
+          <h4 class="text-white"><img src="images/faceLogo.png" width="55px" height="auto"/>Joseph D'Amato</h4>
+          <p class="text-muted">Hi! I'm Joseph D'Amato and welcome to my portfolio page. I am enrolled in MIT xPro Emeritus Full Stack Certiface program. My goal is to establish a career in software engineering and find solutions to problems through creation!</p>
+        </div>
+        <div class="col-sm-4 offset-md-1 py-4">
+          <h4 class="text-white">Contact</h4>
+          <ul class="list-unstyled">
+            <li><a href="#" class="text-white">Link up on LinkedIN</a></li>
+            <li><a href="#" class="text-white">Explore my GitHub</a></li>
+            <li><a href="#" class="text-white">Email me</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="navbar navbar-dark bg-dark shadow-sm">
+    <div class="container">
+      <a href="#" class="navbar-brand d-flex align-items-center">
+        <strong>Joseph D'Amato · Portfolio Page</strong>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main>
+    <section class="py-5 text-center container">
+        <div class="row py-lg-5">
+          <div class="col-lg-6 col-md-8 mx-auto">
+            <h1 class="fw-light">Hello World</h1>
+            <p class="lead text-muted"></p>
+            <aside>
+                <iframe width="420" height="315"
+src="https://www.youtube.com/embed/tgbNymZ7vqY">
+                </iframe>
+            </aside>
+          </div>
+        </div>
+      </section>
+
+  <section class="py-5 text-center container">
+    <div class="row py-lg-5">
+      <div class="col-lg-6 col-md-8 mx-auto">
+        <h1 class="fw-light">Projects</h1>
+        <p class="lead text-muted">Below are the current projects I am working on during my MITxPro Emeritus Full Stack Development Cert.</p>
+        <p>
+          <a href="#" class="btn btn-primary my-2">Go to My GitHub</a>
+          <a href="#" class="btn btn-secondary my-2">Connect with me on LinkedIn</a>
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <div class="album py-5 bg-light">
+    <div class="container">
+    <h4>Featured Projects</h4>
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+
+        <!--PacMan-->
+        <div class="col">
+          <div class="card shadow-sm">
+            <img class="card-img-top" src="./images/PacmanPagePic.png" alt="Card image cap">
+            <text>PacMan Factory</text>
+
+            <div class="card-body">
+              <p class="card-text">Create and bounce Pacman around the webpage.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <!--Go To Web App-->
+                  <a href="https://josephdamato.github.io/PacManFactory/" target="_blank" rel="noreferrer noopener">
+                        <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
                   </a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                  <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                  <div class="navbar-nav">
-                    <a class="nav-item nav-link active" href="https://josephdamato.github.io/">Main</a>
-                    <a class="nav-item nav-link" href="#">Projects</a>
-                  </div>
+                  <!--Go To Repo-->
+                  <a href="https://github.com/JosephDAmato/PacManFactory" target="_blank" rel="noreferrer noopener">
+                        <button type="button" class="btn btn-sm btn-outline-secondary">Repo</button>
+                  </a>
                 </div>
-              </nav>
-        </header>
-            
-            <!--Repo Projects-->
-            <!--Eyes-->
-        <aside>
-            <h6 class="Featured_Projects">Featured Projects</h6>
-
-            <div class="card text-bg-info mb-3" style="max-width: 18rem;">
-                <a href="https://josephdamato.github.io/EyeMovement/" target="_blank" rel="noreferrer noopener">
-                    <div class="card-header"><img id="Eyes" src="images/EyeMovementPreview.png" height="50px" width="auto" margin="auto" alt="Eye Movement Preview"/>
-                </a>
-                    </div>
-                <div class="card-body">
-                  <h5 class="card-title">Eye Movement</h5>
-                  <p class="card-text">A fun web page where a set of eyes follow your cursor.</p>
-
-                  <!--Repo Button-->
-                <a href="https://github.com/JosephDAmato/EyeMovement" target="_blank" rel="noreferrer noopener">
-                        <button type="button" class="btn btn-secondary btn-sm">Go To Repo</button>
-                </a>
-                <!--End of Button-->
+                <small class="text-muted"></small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--EYES-->
+        <div class="col">
+            <div class="card shadow-sm">
+              <img class="card-img-top" src="./images/EyeMovementPreview.png" height="auto" width="auto" alt="Card image cap">
+              <text>Eye Movement</text>
+  
+              <div class="card-body">
+                <p class="card-text">A fun web page where a set of eyes follow your cursor.</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <!--Go To Web App-->
+                    <a href="https://josephdamato.github.io/EyeMovement/" target="_blank" rel="noreferrer noopener">
+                          <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                    </a>
+                    <!--Go To Repo-->
+                    <a href="https://github.com/JosephDAmato/EyeMovement" target="_blank" rel="noreferrer noopener">
+                          <button type="button" class="btn btn-sm btn-outline-secondary">Repo</button>
+                    </a>
+                  </div>
+                  <small class="text-muted"></small>
                 </div>
               </div>
-        
-        <!--Pacman-->
-        <div class="card text-bg-info mb-3" style="max-width: 18rem;">
-            <a href="https://josephdamato.github.io/PacManFactory/" target="_blank" rel="noreferrer noopener">
-                <div class="card-header"><img id="Eyes" src="images/PacmanPagePic.png" height="50px" width="auto" margin="auto" alt="Eye Movement Preview"/>
-            </a>
-                </div>
-            <div class="card-body">
-              <h5 class="card-title">PacMan Factory</h5>
-              <p class="card-text">Create and bounce Pacman around the webpage.</p>
-
-               <!--Repo Button-->
-            <a href="https://github.com/JosephDAmato/PacManFactory" target="_blank" rel="noreferrer noopener">
-                <button type="button" class="btn btn-secondary btn-sm">Go To Repo</button>
-            </a>
-            <!--End of Button-->
-
             </div>
           </div>
-          
-        <!--Bus Animation-->
-        <div class="card text-bg-info mb-3" style="max-width: 18rem;">
-            <a href="https://josephdamato.github.io/BusAnimation/" target="_blank" rel="noreferrer noopener">
-                <div class="card-header"><img id="Eyes" src="images/MapAnimationPreview.png" height="50px" width="auto" margin="auto" alt="Eye Movement Preview"/>
-            </a>
+        <!--Bus-->
+        <div class="col">
+            <div class="card shadow-sm">
+              <img class="card-img-top" src="./images/MapAnimationPreview.png" height="147px" width="auto" alt="Card image cap">
+              <text>PacMan Factory</text>
+  
+              <div class="card-body">
+                <p class="card-text">An interactive map that will display bus stops from MIT to Harvard.</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <!--Go To Web App-->
+                    <a href="https://github.com/JosephDAmato/BusAnimation" target="_blank" rel="noreferrer noopener">
+                          <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                    </a>
+                    <!--Go To Repo-->
+                    <a href="https://josephdamato.github.io/BusAnimation/" target="_blank" rel="noreferrer noopener">
+                          <button type="button" class="btn btn-sm btn-outline-secondary">Repo</button>
+                    </a>
+                  </div>
+                  <small class="text-muted"></small>
                 </div>
-            <div class="card-body">
-              <h5 class="card-title">Bus Animation</h5>
-              <p class="card-text">An interactive map that will display bus stops from MIT to Harvard.</p>
-
-         <!--Repo Button-->
-             <a href="https://github.com/JosephDAmato/BusAnimation" target="_blank" rel="noreferrer noopener">
-                 <button type="button" class="btn btn-secondary btn-sm">Go To Repo</button>
-             </a>
-            <!--End of Button-->
-
+              </div>
             </div>
           </div>
-          <!--end of featured projects-->
-        </aside>
-        <article></article>
-        <aside>
-            <h4>Contact Me</h4>
-                
-            <a href="#" class="fa fa-linkedin"></a>
-            <br></br>
-            <a href="#" class="fa fa-youtube"></a>
-            <br></br>
-            <a href="https://github.com/JosephDAmato" class="fa fa-github"></a>
-            <br></br>
-         
-    
-        </aside>
-        <footer>    <p>Joseph DAmato || Web Developer © 2022</p>  </footer>
+        </div>
+
+        <!--The Rest-->  
+
+  <!--<div class="album py-5 bg-light">
+    <div class="container">
+    <h4>Coursework Projects</h4>
+     <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+  
+        <div class="col">
+          <div class="card shadow-sm">
+            <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
+
+            <div class="card-body">
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                </div>
+                <small class="text-muted">9 mins</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
+
+            <div class="card-body">
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                </div>
+                <small class="text-muted">9 mins</small>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card shadow-sm">
+            <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
+
+            <div class="card-body">
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                </div>
+                <small class="text-muted">9 mins</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
+
+            <div class="card-body">
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                </div>
+                <small class="text-muted">9 mins</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
+
+            <div class="card-body">
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                </div>
+                <small class="text-muted">9 mins</small>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
-</body>
+  </div>
+-->
+</main>
+
+<footer class="text-muted py-5">
+  <div class="container">
+    <p class="float-end mb-1">
+      <a href="#">Back to top</a>
+    </p>
+    <p class="mb-1">Joseph D'Amato's Portfolio Page © 2022</p>
+    <p class="mb-0">Visit my Repo at <a href="https://github.com/JosephDAmato">GitHub</a> or connect with me at LinkdIn<a href="https://www.linkedin.com/in/joseph-d-amato-ab45b240/">LinkdIn</a>.</p>
+  </div>
+</footer>
+
+
+    <script src="./bootstrap.bundle.min.js"></script>
+
+      
+  </body>
 </html>
